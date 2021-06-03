@@ -1,4 +1,0 @@
-Link : https://express-validator.github.io/docs/
-The docs have all required information on getting started
-1).not().isEmpty() is equivalent to "is not empty"
-2)

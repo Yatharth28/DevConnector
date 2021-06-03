@@ -1,0 +1,9 @@
+Link : https://express-validator.github.io/docs/
+The docs have all required information on getting started
+1).not().isEmpty() is equivalent to "is not empty"
+2)DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead. - to remove this go to db.js and in mongoose.connect add useCreateIndex : true
+3)For importing avatar from the users email using gravatar (read the documentation)
+4)Encrypting a password read the documentation
+5)JWT - jwt.io for explanation , documentation-https://github.com/auth0/node-jsonwebtoken
+6)Write the secret key for the jwt in default.json and then use as config.get('jwtSecret')
+7)For verifying jswebtoken we make a middleware folder with the auth.js file

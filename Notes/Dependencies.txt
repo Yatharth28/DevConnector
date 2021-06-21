@@ -7,3 +7,4 @@
 7)mongoose - support for DB
 8)request - allows to make HTTP requests to another api
 9)nodemon concurrenty - will allow front and back run at the same time
+10)users.js me change the expiresIn time to 3600

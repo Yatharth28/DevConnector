@@ -1,0 +1,4 @@
+1)Created the Post.js schema using mongoose
+2)const errors = validationResult(req); is used to give errors if any is found
+3)return res.status(400).json({ errors: errors.array() }); - this returns the error array in JSON format
+4)req.params.id - gives the ID of user which is being passed

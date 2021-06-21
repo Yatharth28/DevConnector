@@ -1,0 +1,7 @@
+import { createStore, applyMiddleware } from 'redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import thunk from 'redux-thunk';
+import rootReduer from './reducers'
+1)This is used to create a redux store for the working of redux
+2)import {v4 as uuid} from 'uuid'
+    const id = uuid();

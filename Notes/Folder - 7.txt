@@ -5,3 +5,5 @@ import rootReduer from './reducers'
 1)This is used to create a redux store for the working of redux
 2)import {v4 as uuid} from 'uuid'
     const id = uuid();
+3)reducers/alert.js me function ko name diya hai alertReducer just to remove the warning 
+4)reducers/auth.js me function name authReducer

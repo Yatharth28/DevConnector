@@ -1,4 +1,5 @@
 /* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 :root {
   --primary-color: #17a2b8;
   --dark-color: #343a40;
@@ -67,7 +68,7 @@ img {
 }
 
 .text-primary {
-  color: var(--primary-color);
+  color: var(--primary-color);  
 }
 
 .text-dark {

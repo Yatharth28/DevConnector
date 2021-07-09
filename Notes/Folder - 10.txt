@@ -1,8 +1,0 @@
-1)// eslint-disable-next-line react-hooks/exhaustive-deps
-This is used to remove the warning react hook useeffect has a missing dependency
-useEffect(() => {
-    ..........
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-Isko likhne ka format
-2) 

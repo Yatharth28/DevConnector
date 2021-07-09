@@ -1,3 +1,0 @@
-1)We're making a private route so that when the user logouts, they can't access the dashboard 
-2)We're making the create profile file for the user who has not setup a account
-3)For adding social network links

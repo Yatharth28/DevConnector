@@ -8,6 +8,10 @@
   --success-color: #28a745;
 }
 
+.custom-class {
+  font-family: 'Raleway', sans-serif;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -68,7 +72,7 @@ img {
 }
 
 .text-primary {
-  color: var(--primary-color);  
+  color: var(--primary-color);
 }
 
 .text-dark {

@@ -1,4 +1,0 @@
-1)In models -> Profile.js make the mongooseSchema from Brad's github
-2).split(',').map(skill.trim()); will split the string from ',' thus making an array and the map will trim the extra white space
-3)we created profileFields object to insert into database to check 
-4)profileFields.social.twitter me .social isliye use kar rahe hai varna error aayega can't recognize twitter

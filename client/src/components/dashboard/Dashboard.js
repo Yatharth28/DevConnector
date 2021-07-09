@@ -24,7 +24,9 @@ const Dashboard = ({
     <Fragment>
       <h1 className='large text-primary'>Dashboard</h1>
       <p className='lead'>
-        <i className='fas fa-user'> Welcome! {user && user.name}</i>
+        <i className='fas fa-user'>
+          <span className='custom-class'> Welcome! {user && user.name}</span>
+        </i>
       </p>
       {profile !== null ? (
         <Fragment>
@@ -34,7 +36,7 @@ const Dashboard = ({
 
           <div className='my-2'>
             <button className='btn btn-danger' onClick={() => deleteAccount()}>
-              <i className='fas fa-user-minus'></i>{' '}Delete My Account
+              <i className='fas fa-user-minus'></i> Delete My Account
             </button>
           </div>
         </Fragment>
